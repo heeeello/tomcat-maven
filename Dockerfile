@@ -1,4 +1,4 @@
-FROM maven:3-jdk-8
+FROM frekele/maven:3-jdk8
 
 ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
